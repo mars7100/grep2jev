@@ -63,4 +63,4 @@ Every live Jev call from `grep2jev` appends one JSON line to `~/.jev-logs/<start
 
 ## Claude Code skill
 
-`skill/SKILL.md` tells an agent when and how to run grep2jev. Install it with `cp -r skill ~/.claude/skills/grep2jev`. It assumes the repo is cloned to `~/grep2jev`, so edit the path in step 2 if you cloned it somewhere else.
+`skill/SKILL.md` tells an agent when and how to run grep2jev. Install it with `cp -r skill ~/.claude/skills/grep2jev`. It assumes the repo is cloned to `~/Projects/grep2jev`, so edit the path in step 2 if you cloned it somewhere else.

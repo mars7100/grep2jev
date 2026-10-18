@@ -16,7 +16,7 @@ Jev (a cheap hosted judge) reads each candidate file and scores how relevant it 
    - Leave out files you already know are relevant; read them directly.
 2. **Run it from the repo root, with the request written as the task in plain words** (the bug report or the change you are making, not the grep pattern):
    ```sh
-   rg -l -i 'prorat|rounding' | node ~/grep2jev/grep2jev.ts "the proration test fails because of rounding"
+   rg -l -i 'prorat|rounding' | node ~/Projects/grep2jev/grep2jev.ts "the proration test fails because of rounding"
    ```
    - `--task` picks the question Jev answers. Pick from the task you are doing; without it Jev asks whether someone working on the request would read or change the file.
      - `bug`: where the cause of a failure, or the failing code, may be.
